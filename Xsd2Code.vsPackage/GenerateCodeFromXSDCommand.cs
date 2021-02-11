@@ -178,7 +178,7 @@ namespace Xsd2Code.vsPackage
             }
 
             var frm = new FormOption();
-            frm.Init(xsdFileName, proj.CodeModel.Language, defaultNamespace, framework, Path.IsPathRooted(outputFile) ? outputFile : Path.Combine(projectDirectory, outputFile));
+            frm.Init(xsdFileName, proj.CodeModel.Language, defaultNamespace, framework, Path.IsPathRooted(outputFile) ? outputFile : Path.Combine(projectDirectory, outputFile?? string.Empty));
 
             DialogResult result = frm.ShowDialog();
 
