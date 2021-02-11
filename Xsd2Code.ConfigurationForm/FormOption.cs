@@ -124,10 +124,7 @@ namespace Xsd2Code.ConfigurationForm
             if (ascii == 27) this.Close();
         }
 
-        private void linkToCodePlex_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(new ProcessStartInfo(linkToCodePlex.Text));
-        }
+       
 
 
 

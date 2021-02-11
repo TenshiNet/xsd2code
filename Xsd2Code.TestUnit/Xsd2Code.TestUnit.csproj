@@ -114,6 +114,7 @@
     </Content>
     <Content Include="xsd\Actor.xsd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Xsd2CodeOutputFile>xsd\Actor.designer.cs</Xsd2CodeOutputFile>
     </Content>
     <Content Include="xsd\Circular.xsd" />
     <None Include="xsd\AnimatedShow.xsd">
